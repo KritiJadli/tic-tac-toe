@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: #C297B8;
+    text-align: center;
+}
+.container{
+    height: 90  vh; /* Fill the viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex ;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:0px;
+}
+.box{
+    
+    height: 18vmin;
+    margin: auto;
+    width: 18vmin;
+    border-radius: .5rem;
+    border: none;
+    font-size: 8vmin;
+    background-color: #797B84;
+    color: #a2d2ff;
+}
+.reset{
+    margin:to;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: .5rem;
+    border: none;
+    background-color:#40434E;
+    cursor: pointer;
+}
